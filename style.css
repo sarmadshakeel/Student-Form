@@ -1,0 +1,325 @@
+.form-sec{
+    background-image: url(FWgYg.jpg);
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header h1{
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+}
+.header p{
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-family: 'Poppins', sans-serif;
+}
+#Survey-Form{
+    padding: 2.5rem;
+    margin: auto;
+    background-color: rgb(29, 24, 56);
+    width: 50%;
+    text-align: center;
+    border-radius: 11px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.name{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+.name label{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 1.58rem;
+}
+.name input{
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.1rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.email{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+.email label{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 1.58rem;
+}
+.email input{
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.1rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.phone label{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 1.58rem;
+}
+.phone input{
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.1rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.date{
+    margin-top: 15px;
+}
+.date label{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 1.58rem;
+}
+.date input{
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.1rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.text{
+    margin-top: 15px;
+}
+.text label{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 1.58rem;
+}
+textarea {
+    
+    width: 550px;
+    height: 120px;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    /* background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07); */
+    border-color: -moz-use-text-color #FFFFFF #FFFFFF -moz-use-text-color;
+    border-image: none;
+    border-radius: 6px 6px 6px 6px;
+    border-style: none solid solid none;
+    border-width: medium 1px 1px medium;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+    color: #555555;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    padding: 5px 8px;
+    transition: background-color 0.2s ease 0s;
+  }
+  
+.age{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+.age label{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 1.58rem;
+}
+.age input{
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.1rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.dropdown{
+   margin-top: 15px;  
+}
+.dropdown p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.225rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#dropdown{
+    display: block;
+    width: 100%;
+    height: 3.375rem;
+    padding: 0.1rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.radio{
+    margin-top: 15px;
+    padding: 0.25rem;   
+}
+.radio p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.radio label{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+}
+.radio input{
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+.area{
+    margin-top: 15px;
+}
+.area label{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 1.58rem;
+}
+.area input{
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.1rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.checkbox{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;   
+}
+.checkbox p{
+    margin-top: 15px;
+    margin-bottom: 0.5rem;
+    font-size: 1.425rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.checkbox label{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.3rem;
+    font-size: 1.125rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    color: white;
+}
+.checkbox input{
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+.btn{
+    margin-top: 15px;
+    padding: 20px 33px;
+    border-radius: 20px;
+    background-color: darkgreen;
+    color: #ced4da;
+    font-size: 1.113rem;
+}
